@@ -1,0 +1,38 @@
+.top_cat{
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.top_cat_pro{
+    width: 450px;
+    height: 370px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
+    transition: transform 1s;
+}
+.top_cat_pro:hover{
+    transform: scale(1.05);
+}
+p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main{
+    position:absolute;
+    left:38%;
+    
+}
+input{
+    border: 3px solid rgb(119, 21, 21);
+    height: 40px;
+    width: 500px;
+    border-radius:50px;
+    padding: 0px 10px;
+    font-size:25px;
+    margin-top: 35px;
+}
